@@ -223,7 +223,7 @@ margin-top:20px;
 
 .product-tile {
     background-color: white;
-    min-width: 337px;
+    min-width: 330px;
     height: 447px;
     box-sizing: border-box;
     display: inline-block;
@@ -451,7 +451,7 @@ hr {
 }
 
 /* MOBILE STYLING */
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1350px){
     .product-tile {
         background-color: white;
         height: 447px;
@@ -469,12 +469,12 @@ hr {
 
 
 #results-container{
-    width:80%;
+    width:70%;
 }
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     #nav-list-container{
         display:none;
     }
