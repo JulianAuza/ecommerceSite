@@ -127,6 +127,7 @@ li.nav.active{
 #results-container {
     background-color: white;
     flex-grow: 1;
+    width:75%;
 }
 
 .bread-crumb-label {
@@ -466,6 +467,11 @@ hr {
         overflow: hidden;
     }
 
+
+#results-container{
+    width:80%;
+}
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -474,8 +480,12 @@ hr {
     }
     #sub-navigation-container{
         display:none;
-
     }
+
+    #results-container{
+        width:100%;
+    }
+    
     #results-header{
         display:none;
     }
