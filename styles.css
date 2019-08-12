@@ -355,6 +355,12 @@ hr {
     cursor: pointer;
 }
 
+.customize-tile.active {
+    background-color: rgb(148, 204, 254);
+    border: 1px solid #4B6DE7;;
+    color:#FFFFFF;
+}
+
 .color-tshirt-image {
     margin-top: 10px;
     margin-left: 13px;
@@ -433,6 +439,7 @@ hr {
 
 .product-views-container{
     margin-top:100px;
+    margin-bottom:10px;
 }
 
 .main-cta{
